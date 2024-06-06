@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(109, 190, 236);
+}
+#nav{
+    background-color: #e70e56;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+}
+#Dominos{
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    margin-top: 1%;
+}
+#sign{
+    margin: right 10px;
+     margin-top:1%;
+}
+#sign span{
+    border: 1px solid black;
+} 
+   #bg_img{
+    background-image:url(mUEcV9.gif) ;
+    height:500px;
+    border: 1px solid black;  
+     background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed
+    
+   } 
+   #bounce{
+    background-color:rgb(119, 182, 240);
+    height: 100px;
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px ;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    left:45% ;
+    top: 76%;
+    animation: bounce infinite 4s;
+
+   }
+   @keyframes bounce
+   {
+    0%{
+     top: 5%;
+    }
+    100%{
+      top: -5%;
+
+    }
+    }
+ #Best_place
+   {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Best_place span{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+   #Best_place form{
+     text-align: center;
+
+   }
+   #Best_place form select{
+    width: 300px;
+    height: 30px;
+    font-size: 70%;
+   
+
+   }
+   #select state
+   {
+    font: size 40px;
+    font-weight: 40px;
+
+   }
+
+     #adver img{
+     height: 150px;
+     width:15%;
+     margin-left: 10%;
+     margin-top: 2%;
+     animation:  dance 3s infinite;
+     }
+     @keyframes  dance{
+      
+        0%{
+            top:5%;
+                transform:rotate(15deg);
+
+        }
+        100%{
+            top:-5%;
+            
+            transform:rotate(-15deg)
+        }
+
+        
+     }
+   
+   #navii{
+      background-color: rgb(185, 12, 56);
+      height: 100%;
+      display: flex;
+      justify-content:space-around;
+      
+     
+   }
+   #common,span,h2{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: large;
+    
+   }
+   #menu img{
+    height: 150px;
+    width:20%;
+    margin-left: 10%;
+    margin-top: 5% ;
+    margin-bottom: 2%;
+    border:5% ;
+   }
+   #menu2 img{
+    height: 150px;
+    width:20%;
+    margin-left:10%;
+    margin-top:5%;
+    border:5%;
+    border-color: black;
+    animation: dance 3 sec;
+   }
+    @keyframes  dance{
+      
+        0%{
+            top: 5%;
+                transform:rotate(15deg)
+
+        }
+       100% {
+            top:-5%;
+            
+            transform:rotate(-15deg)
+        }
+    
+    }
+   #naviii{
+    background-color: rgb(28, 157, 218);
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+   
+   }
+   #naviii2{
+    background-color: rgb(20, 157, 221);
+    height:20px ;
+    display: flex;
+    justify-content: space-around;
+
+   }
+/*   
+   body{
+    line-height: 1.3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   } */
+   .container{
+    max-width:1170px ;
+    background-color:rgb(221, 46, 46) ;
+    margin: auto;
+   }
+   .row{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   ul{
+    list-style: none;
+
+   }
+   #footer{
+    background-color: #d6434a;
+    padding: 70px 0;
+   }
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+    background-color:rgb(221, 46, 46) ;
+
+
+}
+.footer-col h4::before{
+    content: none;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#e91e63 ;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li :not(:last-child){
+ margin-bottom:10px ;
+}
+.footer-col ul li a{
+    font-size:16px ;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300 ;
+    color:#1b0606 ;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{color: #ffffff;
+padding-left: 10px;
+
+}
+
+
+ .social{
+    height: 10px;
+    width:10% ;
+    margin-left:10% ;
+    margin-top: 5%;
+     
+
+}
